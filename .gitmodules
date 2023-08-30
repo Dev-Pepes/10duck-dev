@@ -1,9 +1,12 @@
 [submodule "playlist_be"]
 	path = playlist_be
 	url = https://github.com/Dev-Pepes/playlist_be.git
+	branch = main
 [submodule "playlist_fe"]
 	path = playlist_fe
 	url = https://github.com/Dev-Pepes/playlist_fe.git
+	branch = main
 [submodule "10duck-config"]
 	path = 10duck-config
 	url = https://github.com/Dev-Pepes/10duck-config.git
+	branch = main
