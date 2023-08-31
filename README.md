@@ -3,8 +3,10 @@
 ## 필수 작업
 
 1. Repository Clone && cd `10duck-dev`
-2. `git submodule update --remote`
-3. `git submodule update --init --recursive`
+2. Submodule 정보 갱신
+   1. `git clone --recurse-submodules https://github.com/Dev-Pepes/playlist_be.git`
+   2. `git clone --recurse-submodules https://github.com/Dev-Pepes/playlist_fe.git`
+   3. `git clone --recurse-submodules https://github.com/Dev-Pepes/10duck-config.git`
 
 ### 프로젝트별 필요 작업
 
