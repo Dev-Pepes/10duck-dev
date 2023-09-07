@@ -27,3 +27,14 @@
 
 - `docker-compose up -d`
 - 10duck-config가 실행되야함.
+
+### Redis
+
+SET watermelon 15000
+GET watermelon
+
+실행 : `docker-compose up -d`  
+`docker-compose down`  
+`docker exec -it redis_10duck redis-cli`
+
+docker build -t config . --platform linux/x86_64
